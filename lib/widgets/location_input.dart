@@ -21,7 +21,7 @@ class _LocationInputState extends State<LocationInput> {
           child: _previewImageUrl != null
               ? const Text(
                   "No Location Chosen",
-                  style: TextStyle(fontSize: 15),
+                  style: TextStyle(fontSize: 16),
                   textAlign: TextAlign.center,
                 )
               : Image.network(
