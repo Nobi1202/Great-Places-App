@@ -21,7 +21,6 @@ class _LocationInputState extends State<LocationInput> {
           child: _previewImageUrl != null
               ? const Text(
                   "No Location Chosen",
-                  style: TextStyle(fontSize: 20),
                   textAlign: TextAlign.center,
                 )
               : Image.network(
@@ -31,9 +30,9 @@ class _LocationInputState extends State<LocationInput> {
                 ),
         ),
         ElevatedButton.icon(
-            onPressed: () {},
-            icon: const Icon(Icons.location_on),
-            label: const Text('Current Location'),
+          onPressed: () {},
+          icon: const Icon(Icons.location_on),
+          label: const Text('Current Location'),
         ),
         ElevatedButton.icon(
           onPressed: () {},
